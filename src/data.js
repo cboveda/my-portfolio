@@ -43,3 +43,24 @@ export const skills = [
     "Team Leadership",
     "Mentoring",
 ]
+
+export const endorsements = [
+    {
+        image: "https://media-exp1.licdn.com/dms/image/C5603AQFE4hB4hsC35w/profile-displayphoto-shrink_800_800/0/1558637358767?e=1657152000&v=beta&t=3bWcGVZqqe7a-JWC18KVaWmLeTXRa2VfUB02KflXdIk",
+        name: "Kyra Wayne",
+        company: "Opal",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        image: "https://media-exp1.licdn.com/dms/image/C5603AQEUzLWFdecKcw/profile-displayphoto-shrink_800_800/0/1594075941271?e=1657152000&v=beta&t=xKbtWEzunjKqVFunjNdA1Olao8HJZMf93uuV-xlDBuU",
+        name: "Brent Wishart",
+        company: "TCI",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        image: "https://media-exp1.licdn.com/dms/image/C5603AQHkDcwAH-5uyA/profile-displayphoto-shrink_800_800/0/1615792222770?e=1657152000&v=beta&t=INqK-ILWqK-zAvJ77DIYAeC-7u41stWQqEsXPDkFTek",
+        name: "Tom Selven",
+        company: "TransPak",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+]
