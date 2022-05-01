@@ -50,9 +50,9 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-stone-50 tracking-wide text-xs">
                                 EMAIL
                             </h2>
-                            <a className="text-sky-600 leading-relaxed">
+                            <p className="text-sky-600 leading-relaxed">
                                 ccboveda@gmail.com
-                            </a>
+                            </p>
                             <h2 className="title-font font-semibold text-stone-50 tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
