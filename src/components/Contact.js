@@ -65,6 +65,7 @@ export default function Contact() {
                 <form
                     netlify
                     name="contact"
+                    onSubmit={handleSubmit}
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                     <h2 className="text-stone-50 sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Hire Me
@@ -81,6 +82,7 @@ export default function Contact() {
                             id="name"
                             name="name"
                             className="w-full bg-slate-800 rounded border border-slate-600 focus:border-sky-600 focus:ring-2 focus:ring-sky-900 text-base outline-none text-stone-50 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            onChange={(e) => setName(e.target.value)}
                         />
                     </div>
                     <div className="relative mb-4">
@@ -92,6 +94,7 @@ export default function Contact() {
                             id="email"
                             name="email"
                             className="w-full bg-slate-800 rounded border border-slate-600 focus:border-sky-600 focus:ring-2 focus:ring-sky-900 text-base outline-none text-stone-50 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
                     <div className="relative mb-4">
@@ -102,6 +105,7 @@ export default function Contact() {
                             id="message"
                             name="message"
                             className="w-full bg-slate-800 rounded border border-slate-600 focus:border-sky-600 focus:ring-2 focus:ring-sky-900 h-32 text-base outline-none text-stone-50 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                            onChange={(e) => setMessage(e.target.value)}
                         />
                     </div>
                     <button
