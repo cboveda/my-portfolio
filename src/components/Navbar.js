@@ -10,14 +10,14 @@ export default function Navbar() {
                         Chris Boveda
                     </a>
                 </p>
-                <nav className="md:mr-auto md:ml-5 md:py-1 md:pl-4 md:border-gray-700">
+                <nav className="md:mr-auto md:ml-5 md:pt-1 md:pl-4 md:border-gray-700">
                     <a href="#projects" className="mr-5 hover:text-sky-500">
                         Past Work
                     </a>
                     <a href="#skills" className="mr-5 hover:text-sky-500">
                         Skills
                     </a>
-                    <a href="#testimonials" className="hover:text-sky-500">
+                    <a href="#endorsements" className="hover:text-sky-500">
                         Endorsements
                     </a>
                 </nav>
