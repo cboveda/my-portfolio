@@ -1,6 +1,27 @@
 import React from "react";
 
 export default function Contact() {
+    const [name, setName] = React.useState("");
+    const [email, setEmail] = React.useState("");
+    const [message, setMessage] = React.useState("");
+
+    function encode(data) {
+        return Object.keys(data).map(
+            key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        ).join("&");
+    }
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", name, email, message })
+        })
+            .then(() => alert("Message sent!"))
+            .catch(err => alert(err));
+    }
+
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -48,7 +69,7 @@ export default function Contact() {
                     <h2 className="text-stone-50 sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Hire Me
                     </h2>
-                    <p classname="leading-relaxed mb-5">
+                    <p className="leading-relaxed mb-5">
                         I am seeking a remote or local software engineering position with a path towards team leadership.
                     </p>
                     <div className="relative mt-2 mb-4">
