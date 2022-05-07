@@ -29,10 +29,10 @@ export default function Endorsements() {
                                             <span className="title-font font-medium text-stone-50">
                                                 {endorsement.name}
                                             </span>
-                                            <span className="text-stone-400 text-sm uppercase">
+                                            <span className="text-gray-200 text-sm uppercase">
                                                 {endorsement.title}
                                             </span>
-                                            <span className="text-stone-400 text-sm uppercase">
+                                            <span className="text-sky-200 text-sm uppercase">
                                                 {endorsement.company}
                                             </span>
                                         </span>
