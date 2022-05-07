@@ -15,7 +15,7 @@ export default function Projects() {
                         A collection of applications that demonstrate my ability to adapt to complex requirements and new tech stacks.
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap -m-4 h-50vh">
                     {projects.map((project) => {
                         return (<a
                             href={project.link}
@@ -24,17 +24,17 @@ export default function Projects() {
                             <div className="flex relative border-2 border-gray-800">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-center"
+                                    className="absolute inset-0 w-full h-full object-cover object-top"
                                     src={project.image}
                                 />
-                                <div className="px-8 py-10 relative z-10 w-full bg-gray-900 opacity-0 hover:opacity-90">
+                                <div className="px-8 py-10 relative z-10 w-full bg-gray-900 opacity-0 hover:opacity-90 ">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-sky-600 mb-1">
                                         {project.subtitle}
                                     </h2>
                                     <h1 className="title-font text-lg font-medium text-stone-50 mb-3">
                                         {project.title}
                                     </h1>
-                                    <p className="leading-relaxed">
+                                    <p className="leading-relaxed py-8">
                                         {project.description}
                                     </p>
                                 </div>

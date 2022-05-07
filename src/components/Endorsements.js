@@ -14,7 +14,7 @@ export default function Endorsements() {
                     {endorsements.map((endorsement) => {
                         return (
                             <div className="p-4 lg:w-1/2 w-full">
-                                <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                                <div className="h-full bg-gray-800 bg-opacity-40 py-8 px-2 rounded">
                                     <TerminalIcon className="inline w-8 text-gray-500 mb-4" />
                                     <p className="leading-relaxed mb-6 text-justify">
                                         {endorsement.quote}
@@ -29,10 +29,10 @@ export default function Endorsements() {
                                             <span className="title-font font-medium text-stone-50">
                                                 {endorsement.name}
                                             </span>
-                                            <span className="text-stone-400 text-sm uppercase">
+                                            <span className="text-gray-200 text-sm uppercase">
                                                 {endorsement.title}
                                             </span>
-                                            <span className="text-stone-400 text-sm uppercase">
+                                            <span className="text-sky-200 text-sm uppercase">
                                                 {endorsement.company}
                                             </span>
                                         </span>
