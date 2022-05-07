@@ -12,7 +12,7 @@ export default function Projects() {
                         Apps I've Built
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        The following are a collection of applications I have built in my free time, for school, and for work.
+                        A collection of applications that demonstrate my ability to adapt to complex requirements and new tech stacks.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
@@ -21,13 +21,13 @@ export default function Projects() {
                             href={project.link}
                             key={project.image}
                             className="sm:w-1/2 w-100 p-4">
-                            <div className="flex relative">
+                            <div className="flex relative border-2 border-gray-800">
                                 <img
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
                                     src={project.image}
                                 />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                <div className="px-8 py-10 relative z-10 w-full bg-gray-900 opacity-0 hover:opacity-90">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-sky-600 mb-1">
                                         {project.subtitle}
                                     </h2>

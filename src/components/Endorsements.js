@@ -13,23 +13,26 @@ export default function Endorsements() {
                 <div className="flex flex-wrap m-4">
                     {endorsements.map((endorsement) => {
                         return (
-                            <div className="p-4 md:w-1/2 w-full">
+                            <div className="p-4 lg:w-1/2 w-full">
                                 <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                                     <TerminalIcon className="inline w-8 text-gray-500 mb-4" />
-                                    <p className="leading-relaxed mb-6">
+                                    <p className="leading-relaxed mb-6 text-justify">
                                         {endorsement.quote}
                                     </p>
                                     <div className="inline-flex items-center">
                                         <img
                                             alt="endorsement"
                                             src={endorsement.image}
-                                            className="w-12 rounded-full flex-shrink-0 object-cover object-center border-1"
+                                            className="w-16 rounded-full flex-shrink-0 object-cover object-center border-1"
                                         />
                                         <span className="flex-grow flex flex-col pl-4">
                                             <span className="title-font font-medium text-stone-50">
                                                 {endorsement.name}
                                             </span>
-                                            <span className="text-stone-500 text-sm uppercase">
+                                            <span className="text-stone-400 text-sm uppercase">
+                                                {endorsement.title}
+                                            </span>
+                                            <span className="text-stone-400 text-sm uppercase">
                                                 {endorsement.company}
                                             </span>
                                         </span>
