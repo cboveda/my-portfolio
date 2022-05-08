@@ -18,21 +18,21 @@ export const projects = [
 ];
 
 export const skills = [
-    "React",
-    "Node.js",
-    "HTML & CSS",
-    "MySQL",
-    "JavaScript",
-    "TypeScript",
-    "Java",
-    "C",
-    "C#",
-    "Unity",
-    "Agile/Scrum",
-    "Team Leadership",
-    "Coaching and Mentoring",
-    "Project Management",
-    "Requirements Engineering",
+    { name: "React", proficiency: 60 },
+    { name: "Node.js", proficiency: 70 },
+    { name: "HTML & CSS", proficiency: 80 },
+    { name: "MySQL", proficiency: 80 },
+    { name: "JavaScript", proficiency: 90 },
+    { name: "TypeScript", proficiency: 60 },
+    { name: "Java", proficiency: 95 },
+    { name: "C", proficiency: 85 },
+    { name: "C#", proficiency: 90 },
+    { name: "Unity", proficiency: 80 },
+    { name: "Agile/Scrum", proficiency: 100 },
+    { name: "Team Leadership", proficiency: 100 },
+    { name: "Coaching and Mentoring", proficiency: 100 },
+    { name: "Project Management", proficiency: 100 },
+    { name: "Requirements Engineering", proficiency: 80 },
 ]
 
 export const endorsements = [
