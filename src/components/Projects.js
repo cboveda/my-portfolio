@@ -24,7 +24,7 @@ export default function Projects() {
                             <div className="flex relative border-2 border-gray-800">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-top"
+                                    className="absolute inset-0 w-full h-full object-cover object-top drop-shadow-xl"
                                     src={project.image}
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full bg-gray-900 opacity-0 hover:opacity-90 ">

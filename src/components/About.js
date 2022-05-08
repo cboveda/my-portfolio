@@ -16,12 +16,12 @@ export default function About() {
                     <div className="flex justify-center">
                         <a
                             href="#contact"
-                            className="inline-flex bg-slate-800 border-1 py-2 px-6 focus:outline-none hover:bg-sky-600 rounded text-lg">
+                            className="inline-flex bg-slate-800 border-1 py-2 px-6 focus:outline-none hover:bg-sky-600 rounded text-lg drop-shadow">
                             Work With Me
                         </a>
                         <a
                             href="#projects"
-                            className="ml-4 inline-flex bg-slate-800 border-1 py-2 px-6 focus:outline-none hover:bg-sky-600 rounded text-lg">
+                            className="ml-4 inline-flex bg-slate-800 border-1 py-2 px-6 focus:outline-none hover:bg-sky-600 rounded text-lg drop-shadow">
                             See My Past Work
                         </a>
                     </div>
@@ -29,7 +29,7 @@ export default function About() {
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2">
                     <img
-                        className="object-cover object-center rounded-full"
+                        className="object-cover object-center rounded-full drop-shadow-2xl"
                         alt="hero"
                         src="./headshot.png"
                     />
