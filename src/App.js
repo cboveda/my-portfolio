@@ -11,9 +11,9 @@ function App() {
     <main className="text-stone-100 bg-slate-700 body-font">
       <Navbar />
       <About />
-      <Projects />
-      <Skills />
       <Endorsements />
+      <Skills />
+      <Projects />
       <Contact />
     </main>
   );
