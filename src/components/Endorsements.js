@@ -27,13 +27,13 @@ export default function Endorsements() {
                                                 className="w-16 rounded-full flex-shrink-0 object-cover object-center border-1"
                                             />
                                             <span className="flex-grow flex flex-col pl-4">
-                                                <span className="title-font font-medium text-accent">
+                                                <span className="title-font font-medium text-main">
                                                     {endorsement.name}
                                                 </span>
-                                                <span className="text-accent text-sm uppercase">
+                                                <span className="text-primary text-sm uppercase">
                                                     {endorsement.title}
                                                 </span>
-                                                <span className="text-primary text-sm uppercase">
+                                                <span className="text-secondary text-sm uppercase">
                                                     {endorsement.company}
                                                 </span>
                                             </span>

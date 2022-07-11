@@ -13,13 +13,13 @@ export default function Navbar() {
                     </a>
                 </p>
                 <nav className="md:mr-auto md:ml-5 md:pt-1 md:pl-4 font-medium">
-                    <a href="#endorsements" className="mr-5 hover:text-primary">
+                    <a href="#endorsements" className="mr-5 hover:text-primary transition-colors duration-300 ease-in-out">
                         Endorsements
                     </a>
-                    <a href="#skills" className="mr-5 hover:text-primary">
+                    <a href="#skills" className="mr-5 hover:text-primary transition-colors duration-300 ease-in-out">
                         Skills
                     </a>
-                    <a href="#projects" className="mr-5 hover:text-primary">
+                    <a href="#projects" className="mr-5 hover:text-primary transition-colors duration-300 ease-in-out">
                         Past Work
                     </a>
                     <a href="/Chris_Boveda_-_Software_Engineer.pdf" className="hover:text-primary">
@@ -28,10 +28,10 @@ export default function Navbar() {
                 </nav>
                 <a
                     href="#contact"
-                    className="group inline-flex items-center bg-background border-0 border-main py-1 px-3 focus:outline-none hover:bg-primary hover:text-background text-base mt-4 md:mt-0 text-primary transition-colors duration-400 ease-in-out"
+                    className="group inline-flex items-center bg-background border-0 border-main py-1 px-3 focus:outline-none hover:bg-primary hover:text-background text-base mt-4 md:mt-0 text-secondary transition duration-100 ease-in-out"
                 >
                     <p>Hire Me</p>
-                    <ArrowRightIcon className="w-4 h-4 ml-1 relative group-hover:translate-x-1" />
+                    <ArrowRightIcon className="w-4 h-4 ml-1 relative group-hover:translate-x-1 transition ease-in-out duration-300" />
                 </a>
             </div>
         </header>

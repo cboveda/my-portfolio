@@ -25,7 +25,7 @@ export default function Contact() {
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-accent rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <div className="lg:w-2/3 md:w-1/2 bg-main rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe
                         width="100%"
                         height="100%"
@@ -37,9 +37,9 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7" }}
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2816638.338963826!2d-124.06812!3d46.4165225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1651379382281!5m2!1sen!2sus"
                     />
-                    <div className="bg-accent relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-header relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
-                            <h2 className="title-font font-semibold text-secondary tracking-wide text-xs">
+                            <h2 className="title-font font-semibold text-primary tracking-wide text-xs">
                                 LOCATION
                             </h2>
                             <p className="mt-1 text-background">
@@ -47,13 +47,13 @@ export default function Contact() {
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-6 lg:mt-0 mt-4">
-                            <h2 className="title-font font-semibold text-secondary tracking-wide text-xs">
+                            <h2 className="title-font font-semibold text-primary tracking-wide text-xs">
                                 EMAIL
                             </h2>
                             <p className="text-background leading-relaxed">
                                 ccboveda@gmail.com
                             </p>
-                            <h2 className="title-font font-semibold text-secondary tracking-widest text-xs mt-4">
+                            <h2 className="title-font font-semibold text-primary tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
                             <p className="leading-relaxed text-background">
@@ -81,7 +81,7 @@ export default function Contact() {
                             type="text"
                             id="name"
                             name="name"
-                            className="w-full bg-background2 border border-accent focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
+                            className="w-full bg-background2 border border-header focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
                             onChange={(e) => setName(e.target.value)}
                         />
                     </div>
@@ -93,7 +93,7 @@ export default function Contact() {
                             type="text"
                             id="email"
                             name="email"
-                            className="w-full bg-background2 border border-accent focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
+                            className="w-full bg-background2 border border-header focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
 
                             onChange={(e) => setEmail(e.target.value)}
                         />
@@ -105,7 +105,7 @@ export default function Contact() {
                         <textarea
                             id="message"
                             name="message"
-                            className=" h-32 w-full bg-background2 border border-accent focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
+                            className=" h-32 w-full bg-background2 border border-header focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
 
                             onChange={(e) => setMessage(e.target.value)}
                         />
