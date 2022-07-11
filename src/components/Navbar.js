@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center text-background">
                 <p className="title-font mb-4 md:mb-0 font-bold">
 
-                    <a href="#about" className="text-2xl hover:text-primary">
+                    <a href="#about" className="text-2xl hover:text-primary transition-colors duration-300 ease-in-out">
                         <TerminalIcon class="inline-block w-6 mr-2 align-center mb-1" />
                         Chris Boveda
                     </a>
