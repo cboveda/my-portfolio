@@ -1,5 +1,7 @@
 import React from 'react';
-import { ArrowRightIcon, TerminalIcon } from "@heroicons/react/solid";
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { GrMail } from 'react-icons/gr'
+
 
 export default function Navbar() {
     return (
@@ -8,7 +10,6 @@ export default function Navbar() {
                 <p className="title-font mb-4 md:mb-0 font-bold">
 
                     <a href="#about" className="text-2xl hover:text-primary transition-colors duration-300 ease-in-out">
-                        <TerminalIcon class="inline-block w-6 mr-2 align-center mb-1" />
                         Chris Boveda
                     </a>
                 </p>
@@ -26,13 +27,25 @@ export default function Navbar() {
                         Resume
                     </a>
                 </nav>
-                <a
+                {/* {                <a
                     href="#contact"
                     className="group inline-flex items-center bg-background border-0 border-main py-1 px-3 focus:outline-none hover:bg-primary hover:text-background text-base mt-4 md:mt-0 text-secondary transition duration-100 ease-in-out"
                 >
                     <p>Hire Me</p>
                     <ArrowRightIcon className="w-4 h-4 ml-1 relative group-hover:translate-x-1 transition ease-in-out duration-300" />
-                </a>
+                </a>} */}
+                <nav className="flex mt-5 md:mt-0">
+                    <a href="#contact">
+                        <GrMail className="hover:text-primary relative text-2xl mr-5 transition-colors duration-300 ease-in-out" />
+                    </a>
+                    <a href="https://github.com/cboveda">
+                        <FaGithub className="hover:text-primary relative text-2xl mr-5 transition-colors duration-300 ease-in-out" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/chris-boveda/">
+                        <FaLinkedin className="hover:text-primary relative text-2xl transition-colors duration-300 ease-in-out" />
+                    </a>
+                </nav>
+
             </div>
         </header>
     )
