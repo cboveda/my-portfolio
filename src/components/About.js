@@ -13,19 +13,6 @@ export default function About() {
                     <p className="mb-8 leading-relaxed">
                         Experienced packaging engineer with over ten years in the aerospace, semiconductor, and medical industries. Graduating in December 2022 with B.S. in Software Engineering and with honors. Seeking opportunities to expand my robust problem solving skill set in to the software engineering field.
                     </p>
-                    <div className="flex justify-center">
-                        <a
-                            href="#contact"
-                            className="bg-backgorund border border-main py-2 px-6 focus:outline-none text-lg text-primary hover:text-background hover:bg-primary transition-colors duration-400 ease-in-out">
-                            Contact
-                        </a>
-                        <a
-                            href="#projects"
-                            className="ml-4 bg-backgorund border border-main py-2 px-6 focus:outline-none text-lg text-primary hover:text-background hover:bg-primary transition-colors duration-400 ease-in-out">
-                            Past Work
-                        </a>
-                    </div>
-
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2">
                     <img
