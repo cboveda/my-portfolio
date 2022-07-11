@@ -5,11 +5,11 @@
 .root,
 #root,
 #docs-root {
-    --primary: #0495d4;
-    --secondary: #d0dae7;
-    --accent: #014b6b;
-    --background: #fff;
-    --background-2: #f2f2f5;
-    --main: #0d0106;
-    --header: #2d3748;
+    --primary: #3a9ff7;
+    --secondary: #215885;
+    --accent: #172e35;
+    --background: #FFF;
+    --background-2: #f3f3f5;
+    --main: #1D2731;
+    --header: #1D2731;
 }
