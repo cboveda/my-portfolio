@@ -8,6 +8,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        main: "var(--main)",
+        background: "var(--background)",
+        background2: "var(--background-2)",
+        header: "var(--header)",
+        accent: "var(--accent)",
+      },
     },
   },
   plugins: [
