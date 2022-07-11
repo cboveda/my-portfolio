@@ -8,7 +8,7 @@ import Endorsements from "./components/Endorsements"
 
 function App() {
   return (
-    <main className="text-stone-100 bg-slate-700 body-font">
+    <main className="root bg-background">
       <Navbar />
       <About />
       <Endorsements />
