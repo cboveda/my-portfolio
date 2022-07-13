@@ -10,11 +10,13 @@ function App() {
   return (
     <main className="root bg-background">
       <Navbar />
-      <About />
-      <Endorsements />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className="animate-onLoad translate-y-8">
+        <About />
+        <Endorsements />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </main>
   );
 }

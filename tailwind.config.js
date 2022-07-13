@@ -17,6 +17,20 @@ module.exports = {
         header: "var(--header)",
         accent: "var(--accent)",
       },
+      keyframes: {
+        onLoad: {
+          '0%': {
+            transform: "translateY(-1rem)",
+            opacity: "0",
+          },
+          '100%': {
+            opacity: "100",
+          }
+        }
+      },
+      animation: {
+        onLoad: 'onLoad 0.4s ease-out'
+      }
     },
   },
   plugins: [
