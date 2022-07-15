@@ -5,8 +5,8 @@ import { endorsements } from "../data";
 export default function Endorsements() {
     return (
         <section id="endorsements" className="before:content:'' before:block before:mt-[-72px] before:h-[72px]">
-            <div className="bg-background2 body-font ">
-                <div className="container px-5 py-10 mx-auto text-center">
+            <div className="bg-background2 body-font">
+                <div className="container px-5 py-10 mx-auto text-center xl:w-[1280px]">
                     <UsersIcon className="w-10 inline-block mb-4 text-accent" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-accent mb-4">
                         Endorsements

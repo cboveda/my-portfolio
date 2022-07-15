@@ -24,7 +24,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
-            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap xl:w-[1280px]">
                 <div className="lg:w-2/3 md:w-1/2 bg-main rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe
                         width="100%"
@@ -112,7 +112,7 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="text-primary border border-accent bg-background py-2 px-6 focus:outline-none hover:bg-primary hover:text-background text-lg transition-colors duration-400 ease-in-out">
+                        className="text-background border border-accent bg-primary py-2 px-6 focus:outline-none hover:bg-secondary text-lg transition-colors duration-400 ease-in-out">
                         Submit
                     </button>
                 </form>
