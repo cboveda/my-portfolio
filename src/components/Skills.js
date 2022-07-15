@@ -17,9 +17,9 @@ export default function Skills() {
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                    {skills.map((skill) => {
+                    {skills.map((skill, i) => {
                         return (
-                            <SkillBadge skill={skill} />
+                            <SkillBadge skill={skill} key={i} />
                         )
                     })}
                 </div>
