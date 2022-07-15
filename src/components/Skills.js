@@ -6,7 +6,7 @@ import SkillBadge from './SkillBadge';
 export default function Skills() {
     return (
         <section id="skills" className="before:content:'' before:block before:mt-[-72px] before:h-[72px]">
-            <div className="container px-5 py-10 mx-auto">
+            <div className="container px-5 py-10 mx-auto xl:w-[1280px]">
                 <div className="text-center mb-20">
                     <ChipIcon className="w-10 inline-block mb-4 text-accent" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-accent">
