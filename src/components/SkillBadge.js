@@ -1,7 +1,7 @@
 import React from 'react'
 import { BadgeCheckIcon } from '@heroicons/react/solid'
 
-export default function SkillBadge({ skill }) {
+export default function SkillBadge({ skill}) {
     const style = {
         width: `${skill.proficiency}%`,
     }

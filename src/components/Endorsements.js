@@ -12,9 +12,9 @@ export default function Endorsements() {
                         Endorsements
                     </h1>
                     <div className="flex flex-wrap m-4">
-                        {endorsements.map((endorsement) => {
+                        {endorsements.map((endorsement, i) => {
                             return (
-                                <div className="p-4 lg:w-1/2 w-full">
+                                <div className="p-4 lg:w-1/2 w-full" key={i}>
                                     <div className="h-full py-8 px-6 rounded-lg bg-background">
                                         <p className="leading-relaxed mb-6 text-justify">
                                             &emsp;&emsp;{endorsement.quote}

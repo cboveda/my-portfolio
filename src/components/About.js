@@ -6,7 +6,7 @@ export default function About() {
             <div className="container mx-auto flex px-20 py-20 md:flex-row flex-col items-center xl:w-[1280px]">
                 <div className="lg:flex-grow md:w-1/2 xl:pr-24 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium">
-                        Hello, I'm <span class="bg-gradient-to-br from-primary to-accent bg-clip-text text-transparent">Chris.</span>
+                        Hello, I'm <span className="bg-gradient-to-br from-primary to-accent bg-clip-text text-transparent">Chris.</span>
                         <br className="lg:inline-block" />
                         I love to solve problems.
                     </h1>

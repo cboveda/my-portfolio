@@ -37,7 +37,7 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7" }}
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2816638.338963826!2d-124.06812!3d46.4165225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1651379382281!5m2!1sen!2sus"
                     />
-                    <div className="bg-header relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-header relative flex flex-wrap py-6 rounded shadow-md w-full opacity-95">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-primary tracking-wide text-xs">
                                 LOCATION
@@ -45,19 +45,25 @@ export default function Contact() {
                             <p className="mt-1 text-background">
                                 Beaverton, OR 97006
                             </p>
-                        </div>
-                        <div className="lg:w-1/2 px-6 lg:mt-0 mt-4">
-                            <h2 className="title-font font-semibold text-primary tracking-wide text-xs">
+                            <h2 className="title-font font-semibold text-primary tracking-wide text-xs mt-4">
                                 EMAIL
                             </h2>
-                            <p className="text-background leading-relaxed">
-                                ccboveda@gmail.com
+                            <p className="text-background leading-relaxed hover:underline">
+                                <a href="mailto:ccboveda@gmail.com">ccboveda@gmail.com</a>
+                            </p>
+                        </div>
+                        <div className="lg:w-1/2 px-6 lg:mt-0 mt-4">
+                            <h2 className="title-font font-semibold text-primary tracking-widest text-xs">
+                                LINKEDIN
+                            </h2>
+                            <p className="leading-relaxed text-background hover:underline">
+                                <a href="https://www.linkedin.com/in/chris-boveda/">linkedin.com/in/chris-boveda/</a>
                             </p>
                             <h2 className="title-font font-semibold text-primary tracking-widest text-xs mt-4">
-                                PHONE
+                                GITHUB
                             </h2>
-                            <p className="leading-relaxed text-background">
-                                925-321-5245
+                            <p className="leading-relaxed text-background hover:underline">
+                                <a href="https://github.com/cboveda">github.com/cboveda</a>
                             </p>
                         </div>
                     </div>
@@ -105,7 +111,7 @@ export default function Contact() {
                         <textarea
                             id="message"
                             name="message"
-                            className=" h-32 w-full bg-background2 border border-header focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
+                            className=" h-24 w-full bg-background2 border border-header focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-main py-1 px-3 leading-8 transition-colors duration-400 ease-in-out"
 
                             onChange={(e) => setMessage(e.target.value)}
                         />
