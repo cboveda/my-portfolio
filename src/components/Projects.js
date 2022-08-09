@@ -17,31 +17,32 @@ export default function Projects() {
                         </p>
                     </div>
                     <div className="flex flex-wrap -m-4 h-50vh">
-                        {projects.map((project) => {
-                            return (<a
-                                href={project.link}
-                                key={project.image}
-                                className="sm:w-1/2 w-100 p-4">
-                                <div className="flex relative border border-accent">
-                                    <img
-                                        alt="gallery"
-                                        className="absolute inset-0 w-full h-full object-cover object-top"
-                                        src={project.image}
-                                    />
-                                    <div className="px-8 py-10 relative z-8 w-full bg-header opacity-0 hover:opacity-90 ">
-                                        <h2 className="tracking-widest text-sm title-font font-bold text-primary mb-1">
-                                            {project.subtitle}
-                                        </h2>
-                                        <h1 className="title-font text-lg font-medium text-background mb-3">
-                                            {project.title}
-                                        </h1>
-                                        <p className="leading-relaxed py-8 text-background">
-                                            {project.description}
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>)
-                        })}
+                           Under Construction
+//                         {projects.map((project) => {
+//                             return (<a
+//                                 href={project.link}
+//                                 key={project.image}
+//                                 className="sm:w-1/2 w-100 p-4">
+//                                 <div className="flex relative border border-accent">
+//                                     <img
+//                                         alt="gallery"
+//                                         className="absolute inset-0 w-full h-full object-cover object-top"
+//                                         src={project.image}
+//                                     />
+//                                     <div className="px-8 py-10 relative z-8 w-full bg-header opacity-0 hover:opacity-90 ">
+//                                         <h2 className="tracking-widest text-sm title-font font-bold text-primary mb-1">
+//                                             {project.subtitle}
+//                                         </h2>
+//                                         <h1 className="title-font text-lg font-medium text-background mb-3">
+//                                             {project.title}
+//                                         </h1>
+//                                         <p className="leading-relaxed py-8 text-background">
+//                                             {project.description}
+//                                         </p>
+//                                     </div>
+//                                 </div>
+//                             </a>)
+//                         })}
                     </div>
                 </div>
             </div>
