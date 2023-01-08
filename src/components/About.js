@@ -5,24 +5,27 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-20 py-20 md:flex-row flex-col items-center xl:w-[1280px]">
         <div className="lg:flex-grow md:w-1/2 xl:pr-24 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium">
+          <h1 className="title-font text-4xl mb-4 font-medium">
             Hello, I'm{" "}
             <span className="bg-gradient-to-br from-primary to-accent bg-clip-text text-transparent">
               Chris.
             </span>
-            <br className="lg:inline-block" />I love to solve problems.
+            <br className="lg:inline-block" />
+            <span className="md:text-4xl text-2xl">
+              I love to solve problems.
+            </span>
           </h1>
           <p className="mb-8 leading-relaxed">
-            <ul className="list-disc ml-5">
-              <li>
+            <ul className="list-none md:list-[square] list-outside md:pl-4">
+              <li className="md:pb-0 pb-3">
                 Graduated <i>summa cum laude</i> with B.S. in Software
                 Engineering in December 2022 from Arizona State University.
               </li>
-              <li>
+              <li className="md:pb-0 pb-3">
                 Experienced packaging engineer with over ten years supporting
                 the aerospace, semiconductor, and medical industries.
               </li>
-              <li>
+              <li className="md:pb-0 pb-3">
                 Seeking opportunities to expand my robust problem solving skill
                 set in to the software engineering field.
               </li>
