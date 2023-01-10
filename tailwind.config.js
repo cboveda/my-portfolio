@@ -1,11 +1,8 @@
-const percentageWidth = require('tailwindcss-percentage-width')
+const percentageWidth = require("tailwindcss-percentage-width");
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: ["./src/**/*.{html,js}"],
-  purge: [
-    './public/**/*.html',
-    './src/**/*.{js,jsx,ts,tsx,vue}',
-  ],
+  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     extend: {
       colors: {
@@ -17,9 +14,10 @@ module.exports = {
         header: "var(--header)",
         accent: "var(--accent)",
       },
+      boxShadow: {
+        "inner-top": "inset 0 7px 9px -12px rgba(0,0,0,0.4)",
+      },
     },
   },
-  plugins: [
-    percentageWidth,
-  ],
-}
+  plugins: [percentageWidth],
+};
