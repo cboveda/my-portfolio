@@ -29,15 +29,18 @@ export default function Endorsements() {
               return (
                 <div className="p-4 lg:w-1/2 w-full" key={i}>
                   <div className="py-8 px-6 rounded-lg bg-background">
-                    <p className="leading-relaxed text-justify">
-                      &emsp;&emsp;
-                      {expandedEndorsements[i]
-                        ? endorsement.quote
-                        : endorsement.summary}
-                    </p>
+                    {expandedEndorsements[i] ? (
+                      <p className="leading-relaxed text-justify">
+                        &emsp;&emsp;{endorsement.quote}
+                      </p>
+                    ) : (
+                      <p className="leading-relaxed text-center sm:text-left">
+                        {endorsement.summary}
+                      </p>
+                    )}
                     <p
                       onClick={() => toggleExpandedEndorsement(i)}
-                      className="text-right text-primary font-light hover:text-secondary mt-2 mb-8 hover:underline cursor-pointer"
+                      className="transition-colors duration-300 ease-in-out text-right text-primary font-light hover:text-secondary mt-2 mb-8 hover:underline cursor-pointer"
                     >
                       {expandedEndorsements[i] ? "say less" : "say more"}
                     </p>

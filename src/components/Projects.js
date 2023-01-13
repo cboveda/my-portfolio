@@ -1,4 +1,5 @@
 import { CodeIcon } from "@heroicons/react/solid";
+import { FaGithub, FaDev } from "react-icons/fa";
 import React from "react";
 // import { projects } from "../data";
 
@@ -12,16 +13,32 @@ export default function Projects() {
         <div className="container px-5 py-10 mx-auto text-center lg:px-40 xl:w-[1280px]">
           <div className="flex flex-col w-full mb-20">
             <CodeIcon className="mx-auto inline-block w-10 mb-4 text-accent" />
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-accent">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font text-accent">
               Apps I've Built
             </h1>
-            {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              A collection of applications that demonstrate my ability to adapt
-              to complex requirements and new tech stacks.
-            </p> */}
           </div>
           <div className="text-center text-xl leading-relaxed -m-4 pb-10 text-slate-600">
             <p>Under construction! Ask me about my work.</p>
+            <p>
+              Or, follow my progress on{" "}
+              <a
+                href="https://dev.to/cboveda"
+                className="text-primary inline hover:text-secondary hover:underline relative transition-colors duration-300 ease-in-out"
+              >
+                <FaDev className="inline pb-1" />
+                DEV
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://github.com/cboveda"
+                className="text-primary inline hover:text-secondary hover:underline relative transition-colors duration-300 ease-in-out"
+              >
+                <FaGithub className="inline-block pb-1" />
+                GitHub
+              </a>
+              .
+            </p>
+            <div className="flex flex-row justify-center space-x-2"></div>
           </div>
           <div className="flex flex-wrap -m-4 h-50vh">
             {/* {projects.map((project) => {
