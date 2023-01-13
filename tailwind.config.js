@@ -1,4 +1,6 @@
 const percentageWidth = require("tailwindcss-percentage-width");
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   mode: "jit",
   content: ["./src/**/*.{html,js}"],
@@ -17,6 +19,10 @@ module.exports = {
       boxShadow: {
         "inner-top": "inset 0 7px 9px -12px rgba(0,0,0,0.4)",
       },
+    },
+    screens: {
+      xs: "475px",
+      ...defaultTheme.screens,
     },
   },
   plugins: [percentageWidth],

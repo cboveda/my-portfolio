@@ -68,6 +68,12 @@ export default function Contact() {
                 <p className="leading-relaxed text-background hover:underline">
                   <a href="https://github.com/cboveda">github.com/cboveda</a>
                 </p>
+                <h2 className="title-font font-semibold text-primary tracking-widest text-xs mt-4">
+                  DEV
+                </h2>
+                <p className="leading-relaxed text-background hover:underline">
+                  <a href="https://dev.to/cboveda">dev.to/cboveda</a>
+                </p>
               </div>
             </div>
           </div>

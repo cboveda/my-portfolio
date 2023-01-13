@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaDev } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 export default function Navbar() {
@@ -49,7 +49,10 @@ export default function Navbar() {
             <FaGithub className="hover:text-primary relative text-2xl mr-5 transition-colors duration-300 ease-in-out" />
           </a>
           <a href="https://www.linkedin.com/in/chris-boveda/">
-            <FaLinkedin className="hover:text-primary relative text-2xl transition-colors duration-300 ease-in-out" />
+            <FaLinkedin className="hover:text-primary relative text-2xl mr-5 transition-colors duration-300 ease-in-out" />
+          </a>
+          <a href="https://dev.to/cboveda">
+            <FaDev className="hover:text-primary relative text-2xl transition-colors duration-300 ease-in-out" />
           </a>
         </nav>
       </div>
