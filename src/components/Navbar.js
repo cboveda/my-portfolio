@@ -29,7 +29,7 @@ export default function Navbar() {
           </a>
           <a
             href="/Chris-Boveda_Resume.pdf"
-            className="hover:text-primary"
+            className="hover:text-primary transition-colors duration-300 ease-in-out"
           >
             Resume
           </a>
