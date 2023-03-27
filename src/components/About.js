@@ -15,28 +15,28 @@ export default function About() {
               I love to solve problems.
             </span>
           </h1>
-          <p className="mb-8 leading-relaxed">
-            <ul className="list-none md:list-[square] list-outside md:pl-4">
-              <li className="md:pb-0 pb-3">
-                Graduated <i>summa cum laude</i> with B.S. in Software
-                Engineering in December 2022 from Arizona State University.
-              </li>
-              <li className="md:pb-0 pb-3">
-                Experienced packaging engineer with over ten years supporting
-                the aerospace, semiconductor, and medical industries.
-              </li>
-              <li className="md:pb-0 pb-3">
-                Seeking opportunities to expand my robust problem solving skill
-                set in to the software engineering field.
-              </li>
-            </ul>
-          </p>
+
+          <ul className="mb-8 leading-relaxed list-none md:list-[square] list-outside md:pl-4">
+            <li className="md:pb-0 pb-3">
+              Graduated <i>summa cum laude</i> with B.S. in Software
+              Engineering in December 2022 from Arizona State University.
+            </li>
+            <li className="md:pb-0 pb-3">
+              Experienced packaging engineer with over ten years supporting
+              the aerospace, semiconductor, and medical industries.
+            </li>
+            <li className="md:pb-0 pb-3">
+              Seeking opportunities to expand my robust problem solving skill
+              set in to the software engineering field.
+            </li>
+          </ul>
+
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 flex xl:justify-center lg:justify-end md:justify-center">
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="./headshot2.png"
+            src="./headshot2.webp"
           />
         </div>
       </div>

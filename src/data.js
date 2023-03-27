@@ -1,25 +1,54 @@
 export const projects = [
   {
-    title: "Far Flung: A Psyche Mission Adventure",
-    subtitle: "Unity and C#",
+    title: "Project YOMI (Working Title)",
+    type: "Personal Project",
+    date: "In Development",
     description:
-      "Web-based educational game that features five unique mini-games and an engaging narrative campaign.",
-    image: "./project-1.gif",
-    link: "https://psyche.asu.edu/get-involved/capstone-projects/capstone-projects-copper-class/web-based-game-g/",
+      "Online multiplayer turn-based fighting game for mobile platforms",
+    link: "https://github.com/cboveda/ProjectYOMI",
+    tags: ["Unity", "C#", "Unity Netcode", "Unity Game Services"],
   },
   {
-    title: "Enterprise Project Tracker",
-    subtitle: "PowerApps and Sharepoint",
+    title: "IIoT Temperature Monitor",
+    type: "Class Project",
+    date: "Fall 2022",
     description:
-      "Bespoke and comprehensive task tracking platform for a ISO 9001 compliant packaging engineering organization.",
-    image: "./project-2.gif",
-    link: "/",
+      "Temperature monitoring device built on an Atmega 328P microcontroller that communicates with a central controller",
+    link: "",
+    tags: ["C", "REST API", "Embedded"],
+  },
+  {
+    title: "DEV.to Clone",
+    type: "Personal Project",
+    date: "Summer 2022",
+    description:
+      "Social blogging platform with customizable user names, post creation and editing, and post 'liking'",
+    link: "https://github.com/cboveda/next-blog",
+    tags: ["Next.JS", "React.JS", "Firebase"],
+  },
+  {
+    title: "Far Flung: A Psyche Mission Adventure",
+    type: "Capstone Project",
+    date: "Spring 2022",
+    description:
+      "Web-based educational game that features five unique mini-games and an engaging narrative campaign",
+    link: "https://github.com/cboveda/2021_20G_Web-Based-Game_Far-Flung",
+    tags: ["Unity", "C#", "CI/CD", "Unit Testing"],
+  },
+  {
+    title: "Distributed Microservices",
+    type: "Class Project",
+    date: "Fall 2021",
+    description:
+      "Simple image and text processing microservices using gRPC protocol and deployed over AWS ",
+    link: "",
+    tags: ["Java", "AWS", "gRPC"],
   },
 ];
 
 export const endorsements = [
   {
-    image: "./kw.png",
+    image: "./kw.webp",
     name: "Kyra Wayne",
     title: "Sr. Software Engineer III",
     company: "Nike",
@@ -29,7 +58,7 @@ export const endorsements = [
       "The qualities that are often sought after in a team of professionals comes uniquely packaged into one individual with him...",
   },
   {
-    image: "./mm.png",
+    image: "./mm.webp",
     name: "Marcus Maczynski",
     title: "Lead Game Producer",
     company: "Blizzard Entertainment",

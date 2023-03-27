@@ -25,7 +25,7 @@ export default function Navbar() {
             href="#projects"
             className="mr-5 hover:text-primary transition-colors duration-300 ease-in-out"
           >
-            Past Work
+            Projects
           </a>
           <a
             href="/Chris_Boveda_-_Software_Engineer.pdf"
