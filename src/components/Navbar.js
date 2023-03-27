@@ -28,7 +28,7 @@ export default function Navbar() {
             Projects
           </a>
           <a
-            href="/Chris_Boveda_-_Software_Engineer.pdf"
+            href="/Chris-Boveda_Resume.pdf"
             className="hover:text-primary"
           >
             Resume
