@@ -40,7 +40,7 @@ export default function Endorsements() {
                     )}
                     <p
                       onClick={() => toggleExpandedEndorsement(i)}
-                      className="transition-colors duration-300 ease-in-out text-right text-primary font-light hover:text-secondary mt-2 mb-8 hover:underline cursor-pointer"
+                      className="transition-colors duration-300 ease-in-out text-right text-primary font-medium hover:text-secondary mt-2 mb-8 cursor-pointer"
                     >
                       {expandedEndorsements[i] ? "say less" : "say more"}
                     </p>
@@ -55,7 +55,7 @@ export default function Endorsements() {
                         <span className="title-font font-medium text-main">
                           {endorsement.name}
                         </span>
-                        <span className="text-primary text-sm uppercase">
+                        <span className="text-secondary text-sm uppercase">
                           {endorsement.title}
                         </span>
                         <span className="text-secondary text-sm uppercase">

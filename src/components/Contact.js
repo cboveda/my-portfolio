@@ -40,7 +40,7 @@ export default function Contact() {
               style={{ filter: "opacity(0.7" }}
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2816638.338963826!2d-124.06812!3d46.4165225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1651379382281!5m2!1sen!2sus"
             />
-            <div className="bg-header relative flex flex-wrap py-6 rounded shadow-md w-full opacity-80">
+            <div className="bg-header relative flex flex-wrap py-6 rounded shadow-md w-full opacity-90">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-primary tracking-wide text-xs">
                   LOCATION
