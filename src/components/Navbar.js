@@ -23,28 +23,12 @@ export default function Navbar() {
           </a>
           <a
             href="#projects"
-            className="mr-5 hover:text-primary transition-colors duration-300 ease-in-out"
+            className="hover:text-primary transition-colors duration-300 ease-in-out"
           >
             Projects
           </a>
-          <a
-            href="/Chris-Boveda_Resume.pdf"
-            className="hover:text-primary transition-colors duration-300 ease-in-out"
-          >
-            Resume
-          </a>
         </nav>
-        {/* {                <a
-                    href="#contact"
-                    className="group inline-flex items-center bg-background border-0 border-main py-1 px-3 focus:outline-none hover:bg-primary hover:text-background text-base mt-4 md:mt-0 text-secondary transition duration-100 ease-in-out"
-                >
-                    <p>Hire Me</p>
-                    <ArrowRightIcon className="w-4 h-4 ml-1 relative group-hover:translate-x-1 transition ease-in-out duration-300" />
-                </a>} */}
         <nav className="flex mt-5 md:mt-0">
-          <a href="#contact">
-            <GrMail className="hover:text-primary relative text-2xl mr-5 transition-colors duration-300 ease-in-out" />
-          </a>
           <a href="https://github.com/cboveda">
             <FaGithub className="hover:text-primary relative text-2xl mr-5 transition-colors duration-300 ease-in-out" />
           </a>
