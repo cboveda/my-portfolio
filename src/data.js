@@ -1,30 +1,33 @@
 export const projects = [
   {
+    title: "Monopoly Go!",
+    type: "Scopely",
+    date: "Present",
+    description:
+      "Core experience and quality improvements on the client development team",
+    link: "https://www.monopolygo.com",
+    header: "./mgo.webp",
+    tags: ["Unity", "C#", "MVVM"],
+  },
+  {
+    title: "Kingdom Maker - Web Portal",
+    type: "Scopely",
+    date: "Fall 2023",
+    description:
+      "Bespoke CMS, backend migration tooling, and complete frontend revamp",
+    link: "https://www.kingdommaker.com",
+    header:"./km.webp",
+    tags: ["Typescript", "React", "Koa.js", "Redux", "AWS", "Redis"],
+  },
+  {
     title: "Project YOMI (Working Title)",
     type: "Personal Project",
     date: "In Development",
     description:
       "Online multiplayer turn-based fighting game for mobile platforms",
-    link: "https://github.com/cboveda/ProjectYOMI",
+    link: "https://www.github.com/cboveda/ProjectYOMI",
+    header:"./yomi.webp",
     tags: ["Unity", "C#", "Unity Netcode", "Unity Game Services"],
-  },
-  {
-    title: "IIoT Temperature Monitor",
-    type: "Class Project",
-    date: "Fall 2022",
-    description:
-      "Temperature monitoring device built on an Atmega 328P microcontroller that communicates with a central controller",
-    link: "",
-    tags: ["C", "REST API", "Embedded"],
-  },
-  {
-    title: "DEV.to Clone",
-    type: "Personal Project",
-    date: "Summer 2022",
-    description:
-      "Social blogging platform with customizable user names, post creation and editing, and post 'liking'",
-    link: "https://github.com/cboveda/next-blog",
-    tags: ["Next.JS", "React.JS", "Firebase"],
   },
   {
     title: "Far Flung: A Psyche Mission Adventure",
@@ -32,17 +35,9 @@ export const projects = [
     date: "Spring 2022",
     description:
       "Web-based educational game that features five unique mini-games and an engaging narrative campaign",
-    link: "https://github.com/cboveda/2021_20G_Web-Based-Game_Far-Flung",
+    link: "https://www.github.com/cboveda/2021_20G_Web-Based-Game_Far-Flung",
+    header:"./psyche.png",
     tags: ["Unity", "C#", "CI/CD", "Unit Testing"],
-  },
-  {
-    title: "Distributed Microservices",
-    type: "Class Project",
-    date: "Fall 2021",
-    description:
-      "Simple image and text processing microservices using gRPC protocol and deployed over AWS ",
-    link: "",
-    tags: ["Java", "AWS", "gRPC"],
   },
 ];
 

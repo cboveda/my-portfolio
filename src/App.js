@@ -12,7 +12,6 @@ function App() {
       <About />
       <Endorsements />
       <Projects />
-      <Contact />
     </main>
   );
 }
